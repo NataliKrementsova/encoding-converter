@@ -1,0 +1,22 @@
+{
+  "name": "nk/encoding-converter",
+  "description": "CP1252 and UTF-8 encodings converter with html entities and emojis support",
+  "require": {
+    "php": "^7.3",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "NK\\EncodingConverter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "version": "1.0.0"
+}
